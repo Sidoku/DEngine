@@ -1,4 +1,4 @@
-Laser Defender
+DEngine
 ===========
 <div align="center">
     <img width="30%" src="StartScreen.png">
@@ -6,13 +6,13 @@ Laser Defender
 
 ## Project Concept
 
-DEngine is a game engine built in C++ using the SDL2 library. The engine allows users to create custom Dungeons crawlers.
+DEngine is a game engine built in C++ using the SDL2 library. The engine allows users to create custom Dungeons crawlers. Project website: https://posnil.wixsite.com/dengine/
 
 ## Table Of Contents
 
 - [Snapshots](#Snapshots)
 - [Getting Started](#getting-started)
-    + [1. Download and Installation](#1-Getting-Started)
+    + [1. Download and Installation](#1-Download-and-Installation)
     + [2. Run the editor](#2-Run-the-Editor)
     + [3. Start-the-Game](#3-Start-the-Game)
     + [4. Different customizations offered](#4-Different-customizations-offered)
@@ -22,13 +22,14 @@ DEngine is a game engine built in C++ using the SDL2 library. The engine allows 
 
 ## Snapshots
 
-#### Laser Defender
+#### DEngine
 
 Below are some screenshots of the game:
 
 <p align="center">
-<img height="500" width="300" src="Gameplay.png">
-<img height="500" width="300" src="GameOver.png">
+<img height="500" width="300" src="Gameplay1.png">
+<img height="500" width="300" src="Gameplay2.png">
+<img height="500" width="300" src="Gameplay3.png">
 </p>
 
 ## Getting Started
