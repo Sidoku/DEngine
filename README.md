@@ -1,92 +1,92 @@
-## Add any additional notes here
+Laser Defender
+===========
+<div align="center">
+    <img width="30%" src="StartScreen.png">
+</div>
 
-_your additional notes, or things TA's and instructors should know_
+## Project Concept
 
-## Game/Engine Publicity
+DEngine is a game engine built in C++ using the SDL2 library. The engine allows users to create custom Dungeons crawlers.
 
-**Project Website**: https://posnil.wixsite.com/dengine
+## Table Of Contents
 
-## Compilation Instructions
+- [Snapshots](#Snapshots)
+- [Getting Started](#getting-started)
+    + [1. Download and Installation](#1-Getting-Started)
+    + [2. Run the editor](#2-Run-the-Editor)
+    + [3. Start-the-Game](#3-Start-the-Game)
+    + [4. Different customizations offered](#4-Different-customizations-offered)
+- [Play the Game](#Play-the-Game)
+- [My Roles and Responsibilities](#my-roles-and-responsibilities)
+- [Contact](#Contact)
 
-First you need these libraries installed:
+## Snapshots
 
-    -SDL2
+#### Laser Defender
 
-    -SDL2_tff
+Below are some screenshots of the game:
 
-    -SDL2_mixer
+<p align="center">
+<img height="500" width="300" src="Gameplay.png">
+<img height="500" width="300" src="GameOver.png">
+</p>
 
-    -Pybind
+## Getting Started
 
-    -Tkinter
+### 1. Download and Installation
 
-    -Pillow
+First, download and install these libraries:
+1. SDL2: Go to the SDL2 website and download the latest version of SDL2 for your platform
+2. SDL2_tff: Go to the SDL2_ttf website and download the latest version of SDL_ttf for your platform
+3. SDL2_mixer: Go to the SDL2_mixer website and download the latest version of SDL2_mixer for your platform
+4. Pybind: To install Pybind, you need to have Python 3 and pip installed on your system. Open a command prompt and enter the command "pip install pybind11" to install Pybind.
+5. Tkinter: To install Tkinter, you need to have Python 3 and pip installed on your system. Open a command prompt and enter the command "pip install python-tk" to install Tkinter.
+6. Pillow: To install Pillow, you need to have Python 3 and pip installed on your system. Open a command prompt and enter the command "pip install Pillow" to install Pillow
 
-To run the editor:
+### 2. Run the Editor
 
-    -Go to the Engine folder
-    
-    -Edit the macbuild.py file to match your python version
+1. Go to the Engine folder
+2. Edit the macbuild.py file to match your Python version
+3. Run the command: python3 macbuild.py
+4. Now run the command: python3 EditorIntergrated.py
 
-    -Run the command: python3 macbuild.py
+### 3. Start the Game
+There are 2 ways to start the game:
+1. One way is to click on "Start Random Game" to play the game with random customizations generated with 3 game levels.
+2. The second way to start the game is to first customize the game according to the player's liking.
 
-    -Now run the command: python3 EditorIntergrated.py
+### 4. Different customizations offered​​
 
-To start the game:
+1. Customize rows and columns, interconnectivity (lower the interconnectivity higher the difficulty)
+2. Players can also customize the monster count and treasure percentage wanted in the game
+3. Players also get the option of picking between 2 different tile themes, 2 types of player characters to choose from, and 2 types of monsters
+4. If the player wants to continue customizing the game, there is a "Customize Level" drop-down menu that will allow for adjusting the settings for individual levels.
 
-    -There are 2 ways to start the game:
+After customization the player can start the game by clicking on "Start Game" and the game will start with the configured customizations.
 
-    -One way is to click on "Start Random Game" to play the game with random customizations generated with 3 game levels.
+## Play the Game
 
-        -The second way to start the game is to first customize the game according to the player's liking.
-            -Different customizations offered:​​
-                -Customize rows and columns, interconnectivity (lower the interconnectivity higher the difficulty)
-                -Players can also customize the monster count and treasure percentage wanted in the game
-                -Players also get the option of picking between 2 different tile themes, 2 types of player characters to choose from, and 2 types of monsters
-                -If the player wants to continue customizing the game, there is a "Customize Level" drop-down menu that will allow for adjusting the settings for individual levels.
-            -After customization the player can start the game by clicking on "Start Game" and the game will start with the configured customizations.
+1. Use WASD or Arrow keys to move around the game world.
+2. To perform actions, you need to roll dice. The dice roll determines the number of actions you can perform in that turn.
+3. Press the "R" key to pick up the Axe.
+4. You must have the Axe to defeat the monsters. Each monster requires 1 or 2 axe kills to die.
+5. Press the spacebar to enter the attack stance and then press the direction key to attack in that direction.
+6. Press the "T" key to pick up the treasure.
+7. The game includes a maze, and your objective is to reach the end-level door without getting killed by monsters.
 
-To play the game:
+## My Roles and Responsibilities
 
-    -Use WASD or Arrow keys to move around the game world.
+- Implemented the resource manager
+- Implemented the sprite loader
+- Implemented the player controller
 
-    -To perform actions, you need to roll dice. The dice roll determines the number of actions you can perform in that turn.
+## Contact
 
-    -Press the "R" key to pick up the Axe.
+* Siddharth Singhai - sidsinghai97@gmail.com
+* [![LinkedIn][linkedin-shield]][linkedin-url]
+* [![Portfolio][portfolioIcon-url]][portfolio-url]
 
-    -You must have the Axe to defeat the monsters. Each monster requires 1 or 2 axe kills to die.
-
-    -Press the spacebar to enter the attack stance and then press the direction key to attack in that direction.
-
-    -Press the "T" key to pick up the treasure.
-
-    -The game includes a maze, and your objective is to reach the end-level door without getting killed by monsters.
-
-## Project Hieararchy
-
-In the future, other engineers may take on our project, so we have to keep it organized given the following requirements below. Forming some good organization habits now will help us later on when our project grows as well. These are the required files you should have
-
-### ./Engine Directory Organization
-
-- Docs
-  - Source Code Documentation
-- Assets
-  - Art assets (With the Sub directories music, sound, images, and anything else)
-- src
-  - source code(.cpp files) The make file or any build scripts that automate the building of your project should reside here.
-- include
-  - header files(.h and .hpp files)
-- lib
-  - libraries (.so, .dll, .a, .dylib files). Note this is a good place to put SDL
-- bin
-  - This is the directory where your built executable(.exe for windows, .app for Mac, or a.out for Linux) and any additional generated files are put after each build.
-- EngineBuild (Optional)
-  - You may optionally put a .zip to you final deliverable. One should be able to copy and paste this directory, and only this directory onto another machine and be able to run the game. This is optional because for this course we will be building your projects from source. However, in the game industry it is useful to always have a build of a game ready for testers, thus a game project hieararchy would likely have this directory in a repo or other storage medium.
-- ThirdParty
-  - Code that you have not written if any.
-
-**Note: For the final project you may add additional directories if you like, for example for your game which demonstrates your engine works.**
-
-**Additional Notes:**
-
-1. src and include should only contain ".cpp" or ".hpp" files. Why? It makes it very fast to do a backup of your game project as one example. Secondly, binary files that are generated often clutter up directories. I should not see any binaries in your repository, you may use a '.gitignore' file to help prevent this automatically.
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/siddharthsinghai97/
+[portfolioIcon-url]: https://img.shields.io/badge/-Portfolio-brightgreen
+[portfolio-url]: https://sidsinghai97.wixsite.com/portfolio
