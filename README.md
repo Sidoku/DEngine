@@ -1,7 +1,7 @@
 DEngine
 ===========
 <div align="center">
-    <img width="30%" src="StartScreen.webp">
+    <img width="50%" src="StartScreen.webp">
 </div>
 
 ## Project Concept
@@ -27,9 +27,9 @@ DEngine is a game engine built in C++ using the SDL2 library. The engine allows 
 Below are some screenshots of the game:
 
 <p align="center">
-<img height="500" width="500" src="Gameplay1.webp">
-<img height="500" width="500" src="Gameplay2.webp">
-<img height="500" width="500" src="Gameplay3.webp">
+<img height="300" width="300" src="Gameplay1.webp">
+<img height="300" width="300" src="Gameplay2.webp">
+<img height="300" width="300" src="Gameplay3.webp">
 </p>
 
 ## Getting Started
